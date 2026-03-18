@@ -22,7 +22,7 @@ const PAGE_LABELS = {
 function TopBar() {
   const location = useLocation();
   const key = Object.keys(PAGE_LABELS)
-    .filter(k => Location.pathname !== '/' ? location.pathname.startsWith(k) : k === '/')
+    .filter(k => location.pathname !== '/' ? location.pathname.startsWith(k) : k === '/')
     .sort((a, b) => b.length - a.length)[0];
   const label = PAGE_LABELS[key] || 'WorkflowEngine';
 

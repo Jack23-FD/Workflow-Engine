@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Workflow Automation Engine
 
 ## Intro & Problem Statement
@@ -66,3 +67,7 @@ The **Workflow Automation Engine** is a dynamic, rule-based system that allows t
 *   Containerize the application with Docker and Docker Compose.
 *   Interactive drag-and-drop canvas for the Workflow Editor mapping SpEL variables visually.
 *   Webhook integrations for `notification` step types.
+=======
+# Workflow-Engine
+for Halleyx Project
+>>>>>>> cb2e0d133c84cc9e0d17712886deeed47ea4f405

@@ -20,6 +20,10 @@ const WorkflowList = () => {
     setTimeout(() => setAlert(null), 3000);
   };
 
+  useEffect(() => {
+    loadWorkflows();
+  }, []);
+
   const loadWorkflows = async () => {
     try {
       const res = await workflowService.getAll();
