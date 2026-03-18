@@ -1,0 +1,632 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.workflow:workflow-engine >--------------------
+[INFO] Building workflow-engine 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ workflow-engine ---
+[INFO] Deleting C:\Users\HP\Desktop\workflow\workflow-engine\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ workflow-engine ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ workflow-engine ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 25 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/controller/WorkflowController.java:[18,35] variable workflowService not initialized in the default constructor
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[50,25] cannot find symbol
+  symbol:   method getInputSchema()
+  location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[51,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[52,26] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[55,33] cannot find symbol
+  symbol:   method getInputSchema()
+  location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[64,25] cannot find symbol
+  symbol:   method getInputSchema()
+  location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[69,29] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[70,36] cannot find symbol
+  symbol:   method getInputSchema()
+  location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[71,37] cannot find symbol
+  symbol:   method getVersion()
+  location: variable existing of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[72,36] cannot find symbol
+  symbol:   method getStartStepId()
+  location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[83,27] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[84,29] cannot find symbol
+  symbol:   method getId()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[85,31] cannot find symbol
+  symbol:   method getName()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[86,34] cannot find symbol
+  symbol:   method getVersion()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[87,35] cannot find symbol
+  symbol:   method getIsActive()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[88,38] cannot find symbol
+  symbol:   method getInputSchema()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[89,38] cannot find symbol
+  symbol:   method getStartStepId()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[90,32] cannot find symbol
+  symbol:   method getSteps()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[95,40] cannot find symbol
+  symbol:   method getRules()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[96,21] cannot find symbol
+  symbol:   method getRules()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[100,23] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[101,25] cannot find symbol
+  symbol:   method getId()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[102,33] cannot find symbol
+  symbol:   method getWorkflow()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[102,62] cannot find symbol
+  symbol:   method getWorkflow()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[103,27] cannot find symbol
+  symbol:   method getName()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[104,31] cannot find symbol
+  symbol:   method getStepType()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[104,60] cannot find symbol
+  symbol:   method getStepType()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[105,32] cannot find symbol
+  symbol:   method getStepOrder()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[111,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.dto.RuleResponse
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[112,25] cannot find symbol
+  symbol:   method getId()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[113,32] cannot find symbol
+  symbol:   method getCondition()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[114,33] cannot find symbol
+  symbol:   method getNextStepId()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[115,31] cannot find symbol
+  symbol:   method getPriority()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[38,40] cannot find symbol
+  symbol:   method getCondition()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[46,21] cannot find symbol
+  symbol:   variable log
+  location: class com.workflow.engine.RuleEngine
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[46,86] cannot find symbol
+  symbol:   method getId()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[48,36] cannot find symbol
+  symbol:   method getNextStepId()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[51,21] cannot find symbol
+  symbol:   variable log
+  location: class com.workflow.engine.RuleEngine
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[51,67] cannot find symbol
+  symbol:   method getId()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[55,13] cannot find symbol
+  symbol:   variable log
+  location: class com.workflow.engine.RuleEngine
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[35,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[37,26] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[38,52] cannot find symbol
+  symbol:   method getStepType()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[39,31] cannot find symbol
+  symbol:   method getStepOrder()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[40,30] cannot find symbol
+  symbol:   method getMetadata()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[51,29] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[52,55] cannot find symbol
+  symbol:   method getStepType()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[53,34] cannot find symbol
+  symbol:   method getStepOrder()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[54,33] cannot find symbol
+  symbol:   method getMetadata()
+  location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[72,23] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[73,25] cannot find symbol
+  symbol:   method getId()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[74,33] cannot find symbol
+  symbol:   method getWorkflow()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[74,62] cannot find symbol
+  symbol:   method getWorkflow()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[75,27] cannot find symbol
+  symbol:   method getName()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[76,31] cannot find symbol
+  symbol:   method getStepType()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[77,32] cannot find symbol
+  symbol:   method getStepOrder()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[78,31] cannot find symbol
+  symbol:   method getMetadata()
+  location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[33,42] cannot find symbol
+  symbol:   method getIsActive()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[37,40] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[39,42] cannot find symbol
+  symbol:   method getVersion()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[42,40] cannot find symbol
+  symbol:   method getStartStepId()
+  location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[58,22] cannot find symbol
+  symbol:   method getCurrentStepId()
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[63,61] cannot find symbol
+  symbol:   method getCurrentStepId()
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[64,95] cannot find symbol
+  symbol:   method getCurrentStepId()
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[66,45] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[68,38] cannot find symbol
+  symbol:   method getName()
+  location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[69,38] cannot find symbol
+  symbol:   method getStepType()
+  location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[76,67] cannot find symbol
+  symbol:   method getRules()
+  location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[76,89] cannot find symbol
+  symbol:   method getData()
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[78,21] cannot find symbol
+  symbol:   method setSelectedNextStep(nextStepId[...]"END")
+  location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[79,21] cannot find symbol
+  symbol:   method setEvaluatedRules(java.lang.String)
+  location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[80,21] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[81,21] cannot find symbol
+  symbol:   method setEndedAt(java.time.LocalDateTime)
+  location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[84,22] cannot find symbol
+  symbol:   method setCurrentStepId(java.util.UUID)
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[89,32] cannot find symbol
+  symbol:   method getStepType()
+  location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[91,30] cannot find symbol
+  symbol:   method setStatus(com.workflow.model.Execution.Status)
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[99,13] cannot find symbol
+  symbol:   variable log
+  location: class com.workflow.service.WorkflowExecutionService
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[99,66] cannot find symbol
+  symbol:   method getId()
+  location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[100,21] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[101,21] cannot find symbol
+  symbol:   method setErrorMessage(java.lang.String)
+  location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[102,21] cannot find symbol
+  symbol:   method setEndedAt(java.time.LocalDateTime)
+  location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[105,22] cannot find symbol
+  symbol:   method setStatus(com.workflow.model.Execution.Status)
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[112,18] cannot find symbol
+  symbol:   method setStatus(com.workflow.model.Execution.Status)
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[113,18] cannot find symbol
+  symbol:   method setEndedAt(java.time.LocalDateTime)
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[114,18] cannot find symbol
+  symbol:   method setCurrentStepId(<nulltype>)
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[122,22] cannot find symbol
+  symbol:   method getStatus()
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[126,18] cannot find symbol
+  symbol:   method setStatus(com.workflow.model.Execution.Status)
+  location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[36,43] cannot find symbol
+  symbol:   method getPriority()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[38,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[40,31] cannot find symbol
+  symbol:   method getCondition()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[41,32] cannot find symbol
+  symbol:   method getNextStepId()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[42,30] cannot find symbol
+  symbol:   method getPriority()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[53,40] cannot find symbol
+  symbol:   method getStep()
+  location: variable existing of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[53,63] cannot find symbol
+  symbol:   method getPriority()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[55,34] cannot find symbol
+  symbol:   method getCondition()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[56,35] cannot find symbol
+  symbol:   method getNextStepId()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[57,33] cannot find symbol
+  symbol:   method getPriority()
+  location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[65,21] cannot find symbol
+  symbol:   method getPriority()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[65,56] cannot find symbol
+  symbol:   method getId()
+  location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[77,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.workflow.dto.RuleResponse
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.981 s
+[INFO] Finished at: 2026-03-16T15:23:43+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project workflow-engine: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/controller/WorkflowController.java:[18,35] variable workflowService not initialized in the default constructor
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[50,25] cannot find symbol
+[ERROR]   symbol:   method getInputSchema()
+[ERROR]   location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[51,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[52,26] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[55,33] cannot find symbol
+[ERROR]   symbol:   method getInputSchema()
+[ERROR]   location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[64,25] cannot find symbol
+[ERROR]   symbol:   method getInputSchema()
+[ERROR]   location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[69,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[70,36] cannot find symbol
+[ERROR]   symbol:   method getInputSchema()
+[ERROR]   location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[71,37] cannot find symbol
+[ERROR]   symbol:   method getVersion()
+[ERROR]   location: variable existing of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[72,36] cannot find symbol
+[ERROR]   symbol:   method getStartStepId()
+[ERROR]   location: variable dto of type com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[83,27] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.dto.WorkflowDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[84,29] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[85,31] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[86,34] cannot find symbol
+[ERROR]   symbol:   method getVersion()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[87,35] cannot find symbol
+[ERROR]   symbol:   method getIsActive()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[88,38] cannot find symbol
+[ERROR]   symbol:   method getInputSchema()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[89,38] cannot find symbol
+[ERROR]   symbol:   method getStartStepId()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[90,32] cannot find symbol
+[ERROR]   symbol:   method getSteps()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[95,40] cannot find symbol
+[ERROR]   symbol:   method getRules()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[96,21] cannot find symbol
+[ERROR]   symbol:   method getRules()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[100,23] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[101,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[102,33] cannot find symbol
+[ERROR]   symbol:   method getWorkflow()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[102,62] cannot find symbol
+[ERROR]   symbol:   method getWorkflow()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[103,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[104,31] cannot find symbol
+[ERROR]   symbol:   method getStepType()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[104,60] cannot find symbol
+[ERROR]   symbol:   method getStepType()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[105,32] cannot find symbol
+[ERROR]   symbol:   method getStepOrder()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[111,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.dto.RuleResponse
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[112,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[113,32] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[114,33] cannot find symbol
+[ERROR]   symbol:   method getNextStepId()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowService.java:[115,31] cannot find symbol
+[ERROR]   symbol:   method getPriority()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[38,40] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[46,21] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.workflow.engine.RuleEngine
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[46,86] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[48,36] cannot find symbol
+[ERROR]   symbol:   method getNextStepId()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[51,21] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.workflow.engine.RuleEngine
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[51,67] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/engine/RuleEngine.java:[55,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.workflow.engine.RuleEngine
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[35,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[37,26] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[38,52] cannot find symbol
+[ERROR]   symbol:   method getStepType()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[39,31] cannot find symbol
+[ERROR]   symbol:   method getStepOrder()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[40,30] cannot find symbol
+[ERROR]   symbol:   method getMetadata()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[51,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[52,55] cannot find symbol
+[ERROR]   symbol:   method getStepType()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[53,34] cannot find symbol
+[ERROR]   symbol:   method getStepOrder()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[54,33] cannot find symbol
+[ERROR]   symbol:   method getMetadata()
+[ERROR]   location: variable dto of type com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[72,23] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.dto.StepDTO
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[73,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[74,33] cannot find symbol
+[ERROR]   symbol:   method getWorkflow()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[74,62] cannot find symbol
+[ERROR]   symbol:   method getWorkflow()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[75,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[76,31] cannot find symbol
+[ERROR]   symbol:   method getStepType()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[77,32] cannot find symbol
+[ERROR]   symbol:   method getStepOrder()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/StepService.java:[78,31] cannot find symbol
+[ERROR]   symbol:   method getMetadata()
+[ERROR]   location: variable step of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[33,42] cannot find symbol
+[ERROR]   symbol:   method getIsActive()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[37,40] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[39,42] cannot find symbol
+[ERROR]   symbol:   method getVersion()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[42,40] cannot find symbol
+[ERROR]   symbol:   method getStartStepId()
+[ERROR]   location: variable workflow of type com.workflow.model.Workflow
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[58,22] cannot find symbol
+[ERROR]   symbol:   method getCurrentStepId()
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[63,61] cannot find symbol
+[ERROR]   symbol:   method getCurrentStepId()
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[64,95] cannot find symbol
+[ERROR]   symbol:   method getCurrentStepId()
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[66,45] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[68,38] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[69,38] cannot find symbol
+[ERROR]   symbol:   method getStepType()
+[ERROR]   location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[76,67] cannot find symbol
+[ERROR]   symbol:   method getRules()
+[ERROR]   location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[76,89] cannot find symbol
+[ERROR]   symbol:   method getData()
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[78,21] cannot find symbol
+[ERROR]   symbol:   method setSelectedNextStep(nextStepId[...]"END")
+[ERROR]   location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[79,21] cannot find symbol
+[ERROR]   symbol:   method setEvaluatedRules(java.lang.String)
+[ERROR]   location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[80,21] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[81,21] cannot find symbol
+[ERROR]   symbol:   method setEndedAt(java.time.LocalDateTime)
+[ERROR]   location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[84,22] cannot find symbol
+[ERROR]   symbol:   method setCurrentStepId(java.util.UUID)
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[89,32] cannot find symbol
+[ERROR]   symbol:   method getStepType()
+[ERROR]   location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[91,30] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.workflow.model.Execution.Status)
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[99,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.workflow.service.WorkflowExecutionService
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[99,66] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable currentStep of type com.workflow.model.Step
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[100,21] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[101,21] cannot find symbol
+[ERROR]   symbol:   method setErrorMessage(java.lang.String)
+[ERROR]   location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[102,21] cannot find symbol
+[ERROR]   symbol:   method setEndedAt(java.time.LocalDateTime)
+[ERROR]   location: variable logEntry of type com.workflow.model.ExecutionLog
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[105,22] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.workflow.model.Execution.Status)
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[112,18] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.workflow.model.Execution.Status)
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[113,18] cannot find symbol
+[ERROR]   symbol:   method setEndedAt(java.time.LocalDateTime)
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[114,18] cannot find symbol
+[ERROR]   symbol:   method setCurrentStepId(<nulltype>)
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[122,22] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/WorkflowExecutionService.java:[126,18] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.workflow.model.Execution.Status)
+[ERROR]   location: variable execution of type com.workflow.model.Execution
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[36,43] cannot find symbol
+[ERROR]   symbol:   method getPriority()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[38,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[40,31] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[41,32] cannot find symbol
+[ERROR]   symbol:   method getNextStepId()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[42,30] cannot find symbol
+[ERROR]   symbol:   method getPriority()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[53,40] cannot find symbol
+[ERROR]   symbol:   method getStep()
+[ERROR]   location: variable existing of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[53,63] cannot find symbol
+[ERROR]   symbol:   method getPriority()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[55,34] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[56,35] cannot find symbol
+[ERROR]   symbol:   method getNextStepId()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[57,33] cannot find symbol
+[ERROR]   symbol:   method getPriority()
+[ERROR]   location: variable dto of type com.workflow.dto.RuleRequest
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[65,21] cannot find symbol
+[ERROR]   symbol:   method getPriority()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[65,56] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable rule of type com.workflow.model.Rule
+[ERROR] /C:/Users/HP/Desktop/workflow/workflow-engine/backend/src/main/java/com/workflow/service/RuleService.java:[77,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.workflow.dto.RuleResponse
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
